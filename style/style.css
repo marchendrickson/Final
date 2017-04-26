@@ -1,7 +1,7 @@
 
 
 .header{
-  background-image: url("img/bob.JPG");
+  background-image: url("./img/bob.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +26,7 @@
 
 
 .nav{
-  background-color:rgba(212, 212, 212, 0.62);
+  background-color:rgba(212, 212, 212, 0.8);
   font-size: 20pt;
   text-align: center;
   margin:20pt;
