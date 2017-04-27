@@ -56,25 +56,36 @@ html{
 /*This is the end of the CSS for the homepage header*/
 /*This is the content section*/
 .content-1{
-  display:block;
-  height:100vh;
+  min-height:100vh;
   overflow: auto;
+  border-bottom: 6pt solid;
 }
 .section{
+  margin:10pt;
   flex:auto;
   flex-wrap: wrap;
-  width:35%;
+  width:40%;
   display: inline-block;
-  padding:10px;
-  border:5px solid;
-  background-color:rgba(220, 208, 192, .8);
-  overflow: auto;
+  padding:20px;
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  overflow:hidden;
   opacity: .5;
   filter: alpha(opacity=50); /* For IE8 and earlier */
+  height: 40vh;
+  min-height: 250pt;
+  font-family: 'pontano', sans-serif;
+  font-size: 14pt;
 }
 .section:hover{
   opacity: 1.0;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+  border: 6pt solid rgba(168, 168, 170, 0.78);
+  background-color:rgba(220, 208, 192, .8);
+}
+.section p{
+  font-family: 'pontano', sans-serif;
+  font-size: 12pt;
 }
 
 
@@ -91,13 +102,13 @@ html{
   padding:3em;
   margin-top: 3em;
   font-family:'volkhov-reg', sans-serif;
-  overflow-y:auto;
+
 }
 .content{
   background-image: url('img/water.jpg');
   background-position: left;
   background-size: cover;
-  height:900pt;
+  height:850pt;
   width:100%;
   background-attachment:fixed;
   border-bottom: 5px solid;

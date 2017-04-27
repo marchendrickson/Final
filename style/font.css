@@ -5,9 +5,9 @@
   font-weight: normal;
 }
 
-@@font-face {
-  font-family:'volkhov-reg'
-  src:url('../fonts/Volkhov/Volkhov-Regular.ttf');
+@font-face {
+  font-family:'volkhov';
+  src:url('../fonts/volkhov.ttf');
   font-style:normal;
   font-weight:normal;
 }
