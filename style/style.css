@@ -1,9 +1,10 @@
 html{
-  background-color: #dcd0c0;
+  background-color: rgba(220, 208, 192, .5);
 }
 /*This is the CSS for the homepage header*/
 .header{
   background-image: url("img/bob.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,10 +54,34 @@ html{
   border-left:5pt solid rgba(168, 168, 170, 0.78);
 }
 /*This is the end of the CSS for the homepage header*/
+/*This is the content section*/
+.content-1{
+  display:block;
+  height:100vh;
+  overflow: auto;
+}
+.section{
+  flex:auto;
+  flex-wrap: wrap;
+  width:35%;
+  display: inline-block;
+  padding:10px;
+  border:5px solid;
+  background-color:rgba(220, 208, 192, .8);
+  overflow: auto;
+  opacity: .5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.section:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
 /*The following is going to be for the side column*/
 .aside{
   font-size: 15pt;
-  background-color: rgba(192, 178, 131, .7);
+  background-color:  rgba(220, 208, 192, .75);
   width:25%;
   height:100vh;
   float:left;
@@ -67,12 +92,29 @@ html{
   margin-top: 3em;
   font-family:'volkhov-reg', sans-serif;
   overflow-y:auto;
-
 }
 .content{
-  background-image: url('img/falls.jpg');
+  background-image: url('img/water.jpg');
   background-position: left;
   background-size: cover;
   height:900pt;
   width:100%;
+  background-attachment:fixed;
+  border-bottom: 5px solid;
+}
+.content .aside h1{
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+}
+.quote{
+  background-color: rgba(220, 208, 192, .75);
+  width:40%;
+  height:80px;
+  float:right;
+  margin-right: auto;
+  justify-content: center;
+  padding:10px ;
+  margin:30pt;
+  font-family: 'volkhov-reg', sans-serif;
+  border: 5px solid;
 }
