@@ -101,7 +101,7 @@ html{
   border-bottom: solid 5pt;
   padding:3em;
   margin-top: 3em;
-  font-family:'volkhov-reg', sans-serif;
+  font-family:'pontano', sans-serif;
 
 }
 .content{
@@ -120,12 +120,13 @@ html{
 .quote{
   background-color: rgba(220, 208, 192, .75);
   width:40%;
-  height:80px;
+  height:620px;
   float:right;
   margin-right: auto;
   justify-content: center;
   padding:10px ;
   margin:30pt;
-  font-family: 'volkhov-reg', sans-serif;
+  font-family: 'pontano', sans-serif;
   border: 5px solid;
+  font-size: 15pt;
 }
