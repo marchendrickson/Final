@@ -149,4 +149,5 @@ html{
 }
 @media screen and (max-width:800px){
   .header img{display:none;}
+  .logo{background-image: url('img/logo.png');padding: 35pt;background-position: center;background-repeat: no-repeat;}
 }
