@@ -146,7 +146,5 @@ html{
   .aside img{display: inline-block;}
   .header{background-attachment: scroll;}
   .content{background-attachment: scroll;}
-}
-@media screen and max-width:(790px){
-  .header img{display:none;}
+  header img{display:none;}
 }
