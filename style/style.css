@@ -146,7 +146,5 @@ html{
   .aside img{display: inline-block;}
   .header{background-attachment: scroll;}
   .content{background-attachment: scroll;}
-  .header img{display:none;}
-  .nav{margin:20pt; }
-  .logo{background-image:url('img/logo.png');padding:40pt;background-position: center;background-repeat: no-repeat;}
+  .header header img{display:none;}
 }
