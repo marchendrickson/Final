@@ -140,7 +140,7 @@ html{
 }
 @media screen and (max-width:966px){
   .header header.title{width:100%;}
-  .quote{ display:none;}
+  .quote{display:none;}
   .aside{width:100%;}
   .aside img{display: inline-block;}
   .header{background-attachment: scroll;}
