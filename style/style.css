@@ -148,5 +148,5 @@ html{
   .content{background-attachment: scroll;}
 }
 @media screen and (max-width:800px){
-  .header .title img{display:none;}
+  .header img{display:none;}
 }
