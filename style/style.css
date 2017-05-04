@@ -15,7 +15,9 @@ html{
   border-top: none;
   border-bottom: 20px solid;
 }
-
+.header h1{
+  display:none;
+}
 .header header.title{
   background-color: rgba(220, 208, 192, .5);
   position:relative;
@@ -132,8 +134,7 @@ html{
 
 /*This is going to be the responsive part of the CSS*/
 @media screen and (max-width:1203px){
-  .content-1{ background-color:rgba(220, 208, 192, .5); }
-  .section{width:75%;flex:auto; flex-wrap:wrap; background-color:rgba(220, 208, 192, .8);}
+  .section{width:75%;flex:auto; flex-wrap:wrap; }
   .aside{width:25%;}
   .quote{width:50%;height:100vh;}
   .aside img{display: none;}
@@ -145,4 +146,7 @@ html{
   .aside img{display: inline-block;}
   .header{background-attachment: scroll;}
   .content{background-attachment: scroll;}
+  .header img{display:none;}
+  .nav{margin:20pt; }
+  .logo{background-image:url('img/logo.png');padding:40pt;background-position: center;background-repeat: no-repeat;}
 }
