@@ -152,3 +152,6 @@ html{
   .header .logo{background-image:url("img/logo.png");padding: 35pt;background-position: center;background-repeat: no-repeat;}
   .section{opacity: 1;}
 }
+@media screen and (max-width:700px){
+.nav{ height:75vh;}
+}
