@@ -134,7 +134,7 @@ html{
 
 /*This is going to be the responsive part of the CSS*/
 @media screen and (max-width:1203px){
-  .section{width:75%;flex:auto; flex-wrap:wrap; }
+  .section{width:75%;}
   .aside{width:25%;}
   .quote{width:50%;height:100vh;}
   .aside img{display: none;}
@@ -150,4 +150,5 @@ html{
 @media screen and (max-width:800px){
   .header img{display:none;}
   .header .logo{background-image:url("img/logo.png");padding: 35pt;background-position: center;background-repeat: no-repeat;}
+  .section{opacity: 1;}
 }
