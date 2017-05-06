@@ -58,7 +58,6 @@ html{
 /*This is the content section*/
 .content-1{
   min-height:100vh;
-  overflow: scroll;
   border-bottom: 6pt solid;
 }
 .section{
