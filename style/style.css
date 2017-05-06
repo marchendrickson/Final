@@ -161,4 +161,9 @@ html{
       border-top: none;
       border-bottom:border-bottom: 6pt solid rgba(168, 168, 170, 0.78);}
     .header .logo{max-width:100%;height:auto!important;}
+    .container-1{background-color: rgba(220, 208, 192, .75);}
+    .section p{display: none;}
+    .section:hover p{display:inline-block;}
+    .section:hover{height:500px;}
+    .content{margin-left: none;}
 }
