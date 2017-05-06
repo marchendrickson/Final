@@ -58,7 +58,7 @@ html{
 /*This is the content section*/
 .content-1{
   min-height:100vh;
-  overflow: auto;
+  overflow: scroll;
   border-bottom: 6pt solid;
 }
 .section{
@@ -153,5 +153,5 @@ html{
   .section{opacity: 1;}
 }
 @media screen and (max-width:700px){
-.nav{ height:75vh;}
+.nav{ display:none;}
 }
