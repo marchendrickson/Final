@@ -149,9 +149,16 @@ html{
 }
 @media screen and (max-width:800px){
   .header img{display:none;}
-  .header .logo{background-image:url("img/logo.png");padding: 35pt;background-position: center;background-repeat: no-repeat;}
+  .header .logo{background-image:url("img/logo.png");padding: 35pt;background-position: center;background-repeat: no-repeat;width:100%;}
   .section{opacity: 1;}
 }
 @media screen and (max-width:700px){
-.nav{ display:none;}
+  .nav{-webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;}
+    .nav a{
+      border-top: none;
+      border-bottom:border-bottom: 6pt solid rgba(168, 168, 170, 0.78);}
+
 }
