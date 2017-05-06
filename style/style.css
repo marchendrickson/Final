@@ -160,5 +160,5 @@ html{
     .nav a{
       border-top: none;
       border-bottom:border-bottom: 6pt solid rgba(168, 168, 170, 0.78);}
-
+    .header .logo{max-width:100%;height:auto!important;}
 }
