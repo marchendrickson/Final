@@ -159,7 +159,7 @@ html{
       flex-direction: column;}
     .nav a{
       border-top: none;
-      border-bottom:border-bottom: 6pt solid rgba(168, 168, 170, 0.78);}
+      border-bottom:6pt solid rgba(168, 168, 170, 0.78);}
     .container-1{background-color: rgba(220, 208, 192, .75);}
     .section p{display: none;}
     .section:hover p{display:inline-block;}
