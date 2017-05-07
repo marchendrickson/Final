@@ -20,11 +20,12 @@ html{
   background-position: right;
   background-size: auto;
   float:left;
-  width:75%;
+  width:100%;
+  height:auto;
   padding-left: 20px;
   padding: 1em;
 }
-
+.logo img{display:none;}
 
 .nav{
   background-color:rgba(220, 208, 192, .8);
