@@ -35,7 +35,6 @@ html{
   display:flex;
   flex-direction: column;
   letter-spacing: normal;
-
   float:left;
 }
 .nav a{
@@ -74,7 +73,7 @@ html{
   background-image:url('img/glacierpano.JPG');
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:scroll;
   background-repeat: no-repeat;
   height: 70vh;
   width:75%;
@@ -86,15 +85,30 @@ html{
   border-top: 6pt solid rgba(168, 168, 170, 0.78);
 }
 
+.business-img{
+  background-image: url('img/workshop.JPG');
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:40vh;
+  width:50%;
+  margin:auto;
+  margin-top: 40pt;
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+}
+
 /*Responsive*/
 @media screen and (min-width:500px){
   .nav{flex-direction: row;;font-size: 14pt; }
   .nav a{border-top: 6pt solid rgba(168, 168, 170, 0.78);}
+  .resource-img{background-attachment: fixed;}
 }
 @media screen and (min-width:1000px){
   .header img{width:50%; margin-left: 25%;margin-right: 25%;}
   .nav{float: right; margin:12vh 0 0 10px;}
   .answers{width:50%; margin:30px 25% 30px 25%;border-bottom: 6pt solid rgba(168, 168, 170, 0.78);border-top: 6pt solid rgba(168, 168, 170, 0.78); }
-  .questions{margin-left:10%;}
+  .questions{margin-left:10%;width:45%;}
   .packages {width:75%; margin:auto;}
 }
