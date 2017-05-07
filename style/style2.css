@@ -70,6 +70,21 @@ html{
   margin-left:auto;
   margin-right: auto;
 }
+.resource-img {
+  background-image:url('img/glacierpano.JPG');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+}
 
 /*Responsive*/
 @media screen and (min-width:500px){
