@@ -54,6 +54,16 @@ html{
   display:inline-block;
   font-family:'pontano';
 }
+.answers{
+  width:100%;
+  margin:auto;
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+  background-color: rgba(220, 208, 192, .8);
+  padding-left: 10px;
+  padding-right:10px;
+}
+
 .questions{
   border-left: 5px solid;
   font-family:'volkhov';
@@ -68,6 +78,7 @@ html{
   font-size: 12pt;
   padding-right: 12px;
   float: right;
+  text-align: right;
 }
 .break-img{
   background-image: url('img/falls.jpg');
@@ -80,7 +91,7 @@ html{
 .resource-img {
   background-image:url('img/glacierpano.JPG');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-attachment:scroll;
   background-repeat: no-repeat;
   height: 70vh;
@@ -124,7 +135,7 @@ html{
 @media screen and (min-width:500px){
   .nav{flex-direction: row;;font-size: 14pt; }
   .nav a{border-top: 6pt solid rgba(168, 168, 170, 0.78);}
-  .resource-img{background-attachment: fixed;}
+  .resource-img{background-attachment: fixed; background-size: cover;}
 }
 @media screen and (min-width:1000px){
   .header img{width:50%; margin-left: 25%;margin-right: 25%;}
