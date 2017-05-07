@@ -25,7 +25,6 @@ html{
   padding-left: 20px;
   padding: 1em;
 }
-.logo img{display:none;}
 
 .nav{
   background-color:rgba(220, 208, 192, .8);
@@ -36,7 +35,7 @@ html{
   display:flex;
   flex-direction: column;
   letter-spacing: normal;
-  margin-top: 5em;
+
   float:left;
 }
 .nav a{
@@ -74,5 +73,13 @@ html{
 
 /*Responsive*/
 @media screen and (min-width:500px){
-  .nav{flex-direction: row;;font-size: 14pt;}
+  .nav{flex-direction: row;;font-size: 14pt; }
+  .nav a{border-top: 6pt solid rgba(168, 168, 170, 0.78);}
+}
+@media screen and (min-width:1000px){
+  .header img{width:50%; margin-left: 25%;margin-right: 25%;}
+  .nav{float: right; margin:12vh 0 0 10px;}
+  .answers{width:50%; margin:30px 25% 30px 25%;border-bottom: 6pt solid rgba(168, 168, 170, 0.78);border-top: 6pt solid rgba(168, 168, 170, 0.78); }
+  .questions{margin-left:10%;}
+  .packages {width:75%; margin:auto;}
 }
