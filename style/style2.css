@@ -53,6 +53,7 @@ html{
   border-top: 5px solid;
   display:inline-block;
   font-family:'pontano';
+  width:100%;
 }
 .answers{
   width:100%;
@@ -130,6 +131,36 @@ html{
   border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
   border-top: 6pt solid rgba(168, 168, 170, 0.78);
 }
+.scroll-river {
+  background-image:url('img/tiny.JPG');
+  background-position: center;
+  background-size: cover;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+}
+.womens{
+  background-image:url('img/womens.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment:scroll;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
+  border-top: 6pt solid rgba(168, 168, 170, 0.78);
+}
 
 /*Responsive*/
 @media screen and (min-width:500px){
@@ -144,4 +175,5 @@ html{
   .questions{margin-left:10%;width:45%;}
   .questions-2{margin-right:10%; width:45%;}
   .packages {width:75%; margin:auto;}
+  .scroll-river{height:40vh;background-attachment: fixed;}
 }
