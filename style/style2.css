@@ -91,7 +91,7 @@ html{
 .resource-img {
   background-image:url('img/glacierpano.JPG');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-attachment:scroll;
   background-repeat: no-repeat;
   height: 70vh;
@@ -135,7 +135,7 @@ html{
 @media screen and (min-width:500px){
   .nav{flex-direction: row;;font-size: 14pt; }
   .nav a{border-top: 6pt solid rgba(168, 168, 170, 0.78);}
-  .resource-img{background-attachment: fixed; background-size: cover;}
+  .resource-img{background-attachment: fixed;}
 }
 @media screen and (min-width:1000px){
   .header img{width:50%; margin-left: 25%;margin-right: 25%;}
