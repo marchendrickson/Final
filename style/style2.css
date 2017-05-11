@@ -161,6 +161,17 @@ html{
   border-bottom: 6pt solid rgba(168, 168, 170, 0.78);
   border-top: 6pt solid rgba(168, 168, 170, 0.78);
 }
+.headshot{
+  background-image: url('img/headshot.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll;
+  height:350px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*Responsive*/
 @media screen and (min-width:500px){
