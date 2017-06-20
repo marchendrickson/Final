@@ -183,7 +183,7 @@ margin-left: auto;
 .footer{
   font-family: 'pontano';
   width:100%;
-  height:30vh;
+  height:auto;
   float:right;
 }
 
